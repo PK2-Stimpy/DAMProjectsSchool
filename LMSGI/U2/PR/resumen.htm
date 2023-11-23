@@ -422,6 +422,7 @@
             <p>Podemos agregar videos con &lt;video&gt;, en <code>src</code> especificamos la URL del vídeo.</p>
             <p>En <code>width</code> y <code>height</code> el tamaño del video.</p>
             <p>También tenemos <code>controls</code>, <code>autoplay</code>, <code>loop</code> y <code>muted</code> como parámetros.</p>
+            <p>Y, si el video es de una plataforma de streaming de video, podemos usar &lt;iframe&gt;.</p>
         </div>
 
         <div class="lol">
@@ -440,20 +441,58 @@
             </div>
         </div>
 
+        <!-- 10. FORMULARIOS -->
         <div class="left_text">
-            <p>También, si el video es de una plataforma de streaming de video, podemos usar &lt;iframe&gt;.</p>
+            <h2 class="title2">10. Formularios</h2>
+            <p>Podemos agregar formularios con <code>&lt;form&gt;</code>.</p>
+            <p>Sus parámetros son <code>method</code> que puede ser <code>GET o POST</code>,</p>
+            <p>> <code>target</code> que puede ser <code>_self o _blank</code>,</p>
+            <p>> <code>action</code> que es una URL y</p>
+            <p>> <code>type</code> que puede ser uno de los siguientes:</p>
+            <ul>
+                <li>button</li>
+                <li>checkbox</li>
+                <li>color</li>
+                <li>date</li>
+                <li>datetime-local</li>
+                <li>email</li>
+                <li>file</li>
+                <li>hidden</li>
+                <li>image</li>
+                <li>month</li>
+                <li>number</li>
+                <li>password</li>
+                <li>radio</li>
+                <li>range</li>
+                <li>reset</li>
+                <li>search</li>
+                <li>submit</li>
+                <li>tel</li>
+                <li>text</li>
+                <li>time</li>
+                <li>url</li>
+                <li>week</li>
+            </ul>
         </div>
 
         <div class="lol">
             <div class="info">
-                <p>Vídeo 200 ancho x 200 alto</p>
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/9soMJzu74fw">Could not load video.</video>
+                <h2><b>Busca en Google!</b></h2>
+                <form action="https://www.baidu.com/s" method="GET" target="_blank">
+                    <label for="wd">探索者</label>
+                    <input type="text" name="wd" id="wd" placeholder="寫一些東西">
+                    <input type="submit" value="尋找">
+                </form>
             </div>
 
             <div class="code">
-<pre><code class="language-html">&lt;p>Vídeo 200 ancho x 200 alto&lt;/p&gt;
-&lt;iframe width="200" height="200"
-    src="https://www.youtube.com/embed/9soMJzu74fw"&gt;Could not load video.&lt;/iframe&gt;
+<pre><code class="language-html">&lt;h2&gt;&lt;b&gt;Busca en Google!&lt;/b&gt;&lt;/h2&gt;
+&lt;form action="https://google.com/s" 
+        method="GET" target="_blank"&gt;
+    &lt;label for="q"&gt;Busca:&lt;/label&gt;
+    &lt;input type="text" name="q" id="q" placeholder="Escribe algo!"&gt;
+    &lt;input type="submit" value="Buscar!"&gt;
+&lt;/form&gt;
 </code></pre>
             </div>
         </div>
