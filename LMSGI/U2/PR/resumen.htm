@@ -352,5 +352,110 @@
 </code></pre>
             </div>
         </div>
+
+        <!-- 7. TABLAS -->
+        <div class="left_text">
+            <h2 class="title2">7. Tablas</h2>
+            <p>Con <code>&lt;table&gt;</code> podemos crear tablas.</p>
+            <p>Para definir una fila usamos <code>&lt;tr&gt;</code>, y para una celda <code>&lt;td&gt;</code>.</p>
+            <br/>
+            <p>Cada celda tiene 2 parámetros para expandirlas, <code>colspan</code> y <code>rowspan</code>.</p>
+            <p>También, podremos especificar su borde con <code>border</code>.</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <table border="1">
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Celda 3</td>
+                        <td>Celda 4</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Celda 1&lt;/td&gt;
+        &lt;td&gt;Celda 2&lt;/td&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+        &lt;td&gt;Celda 3&lt;/td&gt;
+        &lt;td&gt;Celda 4&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <!-- 8. IMAGENES -->
+        <div class="left_text">
+            <h2 class="title2">8. Imágenes</h2>
+            <p>Puedes insertar imágenes con <code>&lt;img&gt;</code>, añadiendo el parámetro <code>src</code>, podemos especificar la URL de la imágen.</p>
+            <p>El parámetro <code>&lt;alt&gt;</code> sirve para especificar de que va la imágen.</p>
+            <p>Y, con <code>&lt;width&gt;</code> y <code>&lt;height&gt;</code> podemos especificar el tamaño.</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <p>Imágen 100 ancho x 100 alto</p>
+                <img src="https://media.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif" alt="Amogus" width="100" height="100">
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;p&gt;Imágen 100 ancho x 100 alto&lt;/p&gt;
+&lt;img src="https://media.tenor.com/gQV5VzHLWQIAAAAd/among-us-sus.gif" 
+    alt="Amogus" width="100" height="100"&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <!-- 9. VIDEOS -->
+        <div class="left_text">
+            <h2 class="title2">9. Videos</h2>
+            <p>Podemos agregar videos con &lt;video&gt;, en <code>src</code> especificamos la URL del vídeo.</p>
+            <p>En <code>width</code> y <code>height</code> el tamaño del video.</p>
+            <p>También tenemos <code>controls</code>, <code>autoplay</code>, <code>loop</code> y <code>muted</code> como parámetros.</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <p>Vídeo 200 ancho x 200 alto</p>
+                <video width="200" height="200" controls src="http://node2.furryporn.fun/Videos/0.%20Projectos/6.%20Especial%20Navidad%202021/Source%20files/Intro/video%20(1).mp4">Could not load video.</video>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;p>Vídeo 200 ancho x 200 alto&lt;/p&gt;
+&lt;video width="200" height="200" controls 
+    src="http://node2.furryporn.fun/Videos/0.%20Projectos/
+    6.%20Especial%20Navidad%202021/Source%20files/Intro/
+    video%20(1).mp4"&gt;Could not load video.&lt;/video&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <div class="left_text">
+            <p>También, si el video es de una plataforma de streaming de video, podemos usar &lt;iframe&gt;.</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <p>Vídeo 200 ancho x 200 alto</p>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/9soMJzu74fw">Could not load video.</video>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;p>Vídeo 200 ancho x 200 alto&lt;/p&gt;
+&lt;iframe width="200" height="200" 
+    src="https://www.youtube.com/embed/9soMJzu74fw"&gt;Could not load video.&lt;/iframe&gt;
+</code></pre>
+            </div>
+        </div>
     </body>
 </html>
