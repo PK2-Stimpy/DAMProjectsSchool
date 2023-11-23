@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+        <meta content="Fernando" name="author">
+        <meta content="Practica Resumen" name="description">
+        <meta content="fernando, practica, resumen" name="keywords">
+        
+        <title>Resumen HTML</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/dark.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/css.min.js"></script>
+        <script>hljs.highlightAll();</script>
+
+        <style>
+            .title {
+                color: yellow;
+            }
+
+            .title2 {
+                color: yellow;
+                font-weight: bold;
+            }
+
+
+            body {
+                background-color: #282828;
+                color: white;
+            }
+
+            .centered {
+                text-align: center;
+            }
+
+            div.left_text {
+                margin: auto;
+                width: 60%;
+                padding: 10px;
+            }
+
+            div.lol {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                border: 3px dotted #262626;
+                background-color: #272727;
+            }
+
+            div.info {
+                flex: 1;
+                margin-right: 20px;
+            }
+
+            div.code {
+                flex: 1;
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 1-ESTRUCTURA BÁSICA -->
+        <div class="left_text">
+            <h1 class="centered title">Resumen HTML</h1>
+            <h2 class="title2">1. Estructura básica</h4>
+            <p>Para hacer un documento <b>HTML</b> debes saber la estructura básica.</p>
+            <p>Aquí abajo te mostramos cuál es la estructura básica de <b>HTML</b>.</p>
+            <br>
+            <p>El siguiente código va a mostrar por pantalla un texto.</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <p>TEXTO</p>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Prueba&lt;/title&gt;
+    &lt;/head&gt;
+    
+    &lt;body&gt;
+        &lt;p&gt;TEXTO&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <div class="left_text">
+            <p>La etiqueta <code>&lt;p&gt;</code> es para definir textos.</p>
+            <p>Vamos a cambiarla a por ejemplo <b>Patatas con ajo</b>.</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <p>Patatas con ajo</p>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Prueba&lt;/title&gt;
+    &lt;/head&gt;
+    
+    &lt;body&gt;
+        &lt;p&gt;Patatas con ajo&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <!-- 2-ETIQUETAS CABECERA -->
+        <div class="left_text">
+            <h2 class="title2">2. Etiquetas de cabecera</h2>
+            <p>Vamos a ver unas etiquetas que son muy útiles.</p>
+            <br>
+            <p>La primera de todas consta de la etiqueta <code>&lt;meta&gt;</code>.</p>
+            <p>Con esta etiqueta podemos definir cosas de la página, como por ejemplo:</p>
+            <br>
+            <p>* Autor, descripción y palabras clave de la página:</p>
+        </div>
+
+        <div class="lol">
+<pre><code class="language-html">&lt;head&gt;
+    &lt;meta content="AUTOR" name="author"&gt;
+    &lt;meta content="DESCRIPCIÓN" name="description"&gt;
+    &lt;meta content="clave1, clave2, clave3, ..." name="keywords"&gt;
+&lt;/head&gt;
+</code></pre>
+        </div>
+
+        <div class="left_text">
+            <p>* También, podemos especificar la codificación de la página con la etiqueta meta:</p>
+        </div>
+
+        <div class="lol">
+<pre><code class="language-html">&lt;head&gt;
+    &lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;
+&lt;/head&gt;
+</code></pre>
+        </div>
+
+        <div class="left_text">
+            <p>** Esto nos servirá si queremos poner carácteres especiales, tildes, ...</p>
+        </div>
+
+        <!-- 3-TEXTOS -->
+        <div class="left_text">
+            <h2 class="title2">3. Textos</h2>
+            <p>Para hacer titulos podemos utilizar la etiqueta <code>h1</code> a <code>h6</code>.</p>
+            <p>El 1 con mayor importancia y el 6 con menos.</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <h1>Header 1</h1>
+                <h2>Header 2</h2>
+                <h3>Header 3</h3>
+                <h4>Header 4</h4>
+                <h5>Header 5</h5>
+                <h6>Header 6</h6>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;body&gt;
+    &lt;h1&gt;Header 1&lt;/h1&gt;
+    &lt;h2&gt;Header 2&lt;/h2&gt;
+    &lt;h3&gt;Header 3&lt;/h3&gt;
+    &lt;h4&gt;Header 4&lt;/h4&gt;
+    &lt;h5&gt;Header 5&lt;/h5&gt;
+    &lt;h6&gt;Header 6&lt;/h6&gt;
+&lt;/body&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <div class="left_text">
+            <p>Aquí tenemos unos ejemplos de textos:</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <p><b>Hola b</b></p>
+                <p><i>Hola i</i></p>
+                <p><u>Hola u</u></p>
+                <p><del>Hola del</del></p>
+                <p><em>Hola em</em></p>
+                <p><dfn>Hola dfn</dfn></p>
+                <p><code>Hola code</code></p>
+                <p><samp>Hola samp</samp></p>
+                <p><kdb>Hola kdb</kdb></p>
+                <p><var>Hola var</var></p>
+                <p><cite>Hola cite</cite></p>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;p&gt;&lt;b&gt;Hola&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Hola b&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Hola i&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;Hola del&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Hola em&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;dfn&gt;Hola dfn&lt;/dfn&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Hola code&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;samp&gt;Hola samp&lt;/samp&gt;&lt;/p&gt;
+&lt;p&gt;&lt;kdb&gt;Hola kdb&lt;/kdb&gt;&lt;/p&gt;
+&lt;p&gt;&lt;var&gt;Hola var&lt;/var&gt;&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;Hola cite&lt;/cite&gt;&lt;/p&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <!-- 4-LISTAS -->
+        <div class="left_text">
+            <h2 class="title2">4. Listas</h2>
+            <p>Para definir una lista, se puede hacer una lista desordenada:</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ul>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;ul&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+    &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <div class="left_text">
+            <p>O también, para una lista ordenada:</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <ol>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ol>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;ol&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+    &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <div class="left_text">
+            <p>Y por último, tenemos listas de definiciones:</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <dl>
+                    <dt>Hola</dt>
+                    <dd>Hola</dd>
+
+                    <dt>Wifi</dt>
+                    <dd>Wifi</dd>
+                </dl>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;dl&gt;
+    &lt;dt&gt;Hola&lt;/dt&gt;
+    &lt;dd&gt;Hola&lt;/dd&gt;
+
+    &lt;dt&gt;Wifi&lt;/dt&gt;
+    &lt;dd&gt;Wifi&lt;/dd&gt;
+&lt;/dl&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <!-- 5. ESTILOS -->
+        <div class="left_text">
+            <h2 class="title2">5. Estilos</h2>
+            <p>Podemos aplicar estilos a textos con el atributo <code>style=</code>.</p>
+            <p>Aquí unos ejemplos:</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <p style="font-family: 'Courier New', Courier, monospace;">Font Family</p>
+                <p style="font-size: 1em;">Font Size 1em</p>
+                <p style="font-size: 150%;">Font Size 150%</p>
+                <p style="font-style: italic;">Font Style Italic</p>
+                <p style="font-variant: small-caps;">Font Variant Small Caps</p>
+                <p style="letter-spacing: 10px;">Letter Spacing 10</p>
+                <p style="word-spacing: 20px;">Word Spacing 20</p>
+                <p style="text-transform: uppercase;">this will be uppercase</p>
+                <p style="text-decoration: underline;">Text Decoration Underline</p>
+                <p style="text-shadow: red 10px 10px 10px;">Text Shadow Red 10</p>
+                <p style="color:red">Color red</p>
+                <p style="background-color: red;">Background Color Red</p>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;p style="font-family: 'Courier New', Courier, monospace;"&gt;Font Family&lt;/p&gt;
+&lt;p style="font-size: 1em;"&gt;Font Size 1em&lt;/p&gt;
+&lt;p style="font-size: 150%;"&gt;Font Size 150%&lt;/p&gt;
+&lt;p style="font-style: italic;"&gt;Font Style Italic&lt;/p&gt;
+&lt;p style="font-variant: small-caps;"&gt;Font Variant Small Caps&lt;/p&gt;
+&lt;p style="letter-spacing: 10px;"&gt;Letter Spacing 10&lt;/p&gt;
+&lt;p style="word-spacing: 20px;"&gt;Word Spacing 20&lt;/p&gt;
+&lt;p style="text-transform: uppercase;"&gt;this will be uppercase&lt;/p&gt;
+&lt;p style="text-decoration: underline;"&gt;Text Decoration Underline&lt;/p&gt;
+&lt;p style="text-shadow: red 10px 10px 10px;"&gt;Text Shadow Red 10&lt;/p&gt;
+&lt;p style="color:red"&gt;Color red&lt;/p&gt;
+&lt;p style="background-color: red;"&gt;Background Color Red&lt;/p&gt;
+</code></pre>
+            </div>
+        </div>
+
+        <!-- 6. LINKS -->
+        <div class="left_text">
+            <h2 class="title2">6. Links</h2>
+            <p>Podemos referenciar otras webs mediante la etiqueta <code>&lt;a&gt;</code>.</p>
+        </div>
+
+        <div class="lol">
+            <div class="info">
+                <a href="https://www.1688.com/" target="_self">Misma pestaña</a>
+                <br>
+                <a href="https://www.tmall.com/" target="_blank">Nueva pestaña</a>
+            </div>
+
+            <div class="code">
+<pre><code class="language-html">&lt;a href="https://google.com" target="_self"&gt;Misma pestaña&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://amazon.com" target="blank"&gt;Nueva pestaña&lt;/a&gt;
+</code></pre>
+            </div>
+        </div>
+    </body>
+</html>
