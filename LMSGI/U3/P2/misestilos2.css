@@ -51,3 +51,8 @@ h1.texto8 {
     text-decoration: underline;
     color: green;
 }
+
+h1.texto8 strong {
+    color: greenyellow;
+    cursor: ew-resize;
+}
