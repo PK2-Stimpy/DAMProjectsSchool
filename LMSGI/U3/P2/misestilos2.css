@@ -39,7 +39,7 @@ p.texto5, p.texto6, p.texto7 {
 }
 
 p.texto6 {
-    text-decoration: overline;
+    text-decoration: overline underline;
 }
 
 p.texto7 a {
