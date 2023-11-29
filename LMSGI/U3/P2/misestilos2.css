@@ -33,3 +33,11 @@ p.texto4 a:nth-child(2n) {
 p.texto4 a:last-child {
     color: blue;
 }
+
+p.texto5, p.texto6, p.texto7 {
+    color: blue;
+}
+
+p.texto7 a {
+    text-shadow: yellow 10px 10px 5px;
+}
