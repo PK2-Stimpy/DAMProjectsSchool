@@ -22,7 +22,7 @@ p.texto3 {
     color: gray;
 }
 
-p.texto4:nth-child(2n) {
+p.texto4 a:nth-child(2n) {
     color: green;
 }
 
