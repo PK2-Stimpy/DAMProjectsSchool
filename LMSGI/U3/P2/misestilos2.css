@@ -22,7 +22,10 @@ p.texto3 {
     color: gray;
 }
 
+p.texto4:first-child {
+    color: red;
+}
+
 p.texto4 a:nth-child(2n) {
     color: green;
 }
-
