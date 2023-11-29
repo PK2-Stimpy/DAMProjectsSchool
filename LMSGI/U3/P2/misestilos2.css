@@ -22,14 +22,7 @@ p.texto3 {
     color: gray;
 }
 
-p.texto4:first-child {
+p.texto4:first-of-type a {
     color: red;
 }
 
-p.texto4:first-child::after {
-    color: green;
-}
-
-p.texto4:last-child {
-    color: blue;
-}
