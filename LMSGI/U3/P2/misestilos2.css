@@ -4,5 +4,12 @@ p.texto1 i {
 
 p.texto2:hover {
     background-color: yellow;
-    width: fit-content;
+}
+
+p.texto3 a:visited {
+    color: aqua;
+}
+
+p.texto3 a:hover {
+    color: yellow;
 }
