@@ -47,6 +47,7 @@ p.texto7 a {
 }
 
 h1.texto8 {
-    text-transform: lowercase capitalize;
-    text-decoration: wavy;
+    text-transform: lowercase;
+    text-decoration: underline;
+    color: green;
 }
