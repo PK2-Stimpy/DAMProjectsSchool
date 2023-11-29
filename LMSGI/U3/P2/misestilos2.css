@@ -22,10 +22,14 @@ p.texto3 {
     color: gray;
 }
 
-p.texto4:first-child {
+p.texto4 a:first-child {
     color: red;
 }
 
 p.texto4 a:nth-child(2n) {
     color: green;
+}
+
+p.texto4 a:last-child {
+    color: blue;
 }
