@@ -56,3 +56,8 @@ h1.texto8 strong {
     color: greenyellow;
     cursor: ew-resize;
 }
+
+p.texto9 a, p.texto9 a:active, p.texto9 a:visited, p.texto9 a:focus, p.texto9 a:hover, p.texto9 a:link {
+    cursor: pointer;
+    color: black;
+}
