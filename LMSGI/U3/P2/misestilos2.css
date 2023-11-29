@@ -4,5 +4,5 @@ p.texto1 i {
 
 p.texto2:hover {
     background-color: yellow;
-    width: auto;
+    width: fit-content;
 }
