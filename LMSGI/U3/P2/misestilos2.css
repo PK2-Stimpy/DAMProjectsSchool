@@ -13,3 +13,7 @@ p.texto3 a:visited {
 p.texto3 a:hover {
     color: yellow;
 }
+
+p.texto3 {
+    color: gray;
+}
