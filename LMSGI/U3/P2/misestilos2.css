@@ -63,10 +63,10 @@ p.texto9, p.texto9 a:active, p.texto9 a:visited, p.texto9 a:focus, p.texto9 a:ho
     text-decoration: none;
 }
 
-p.texto10 {
+h1.texto10 a {
     font-size: 2px;
 }
 
-p.texto10:hover {
+h1.texto10 a:hover {
     font-size: 32px;
 }
