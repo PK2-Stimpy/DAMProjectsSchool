@@ -1,3 +1,7 @@
+* {
+    text-transform: uppercase;
+}
+
 p.texto1 i {
     color: red;
 }
@@ -16,4 +20,16 @@ p.texto3 a:hover {
 
 p.texto3 {
     color: gray;
+}
+
+p.texto4:first-child {
+    color: red;
+}
+
+p.texto4:first-child::after {
+    color: green;
+}
+
+p.texto4:last-child {
+    color: blue;
 }
