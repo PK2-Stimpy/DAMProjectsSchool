@@ -45,3 +45,8 @@ p.texto6 {
 p.texto7 a {
     text-shadow: yellow 5px 5px 3px;
 }
+
+h1.texto8 {
+    text-transform: lowercase capitalize;
+    text-decoration: wavy;
+}
